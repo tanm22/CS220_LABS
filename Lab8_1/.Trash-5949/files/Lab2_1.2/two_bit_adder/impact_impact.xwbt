@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/users/btech/dakshkscse/Desktop/CS220Labs/Lab2_1/two_bit_adder/impact.xsl
+OUTFILE=/users/btech/dakshkscse/Desktop/CS220Labs/Lab2_1/two_bit_adder/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/users/btech/dakshkscse/Desktop/CS220Labs/Lab2_1/two_bit_adder
+LICENSE=iMPACT
+USER_INFO=iMPACT

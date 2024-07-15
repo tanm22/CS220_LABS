@@ -1,0 +1,115 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Mar 13 14:49:10 2024
+# Process ID: 13173
+# Log file: /home/cse/Desktop/CS220Labs/LAB7_2/lcd_min/planAhead_run_1/planAhead.log
+# Journal file: /home/cse/Desktop/CS220Labs/LAB7_2/lcd_min/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/cse/Desktop/CS220Labs/LAB7_2/lcd_min/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin F12 [get_ports {minpos[0]}]
+endgroup
+startgroup
+set_property package_pin E12 [get_ports {minpos[1]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {minpos[1]}]]
+set_property is_loc_fixed true [get_ports [list  {minpos[1]}]]
+set_property package_pin "" [get_ports [list  {slide[0]}]]
+set_property iostandard LVTTL [get_ports [list {minpos[1]} {minpos[0]}]]
+set_property drive 8 [get_ports [list {minpos[1]} {minpos[0]}]]
+startgroup
+set_property package_pin L13 [get_ports {slide[0]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {slide[1]}]
+endgroup
+startgroup
+set_property package_pin H18 [get_ports {slide[2]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {slide[2]}]]
+set_property is_loc_fixed true [get_ports [list  {slide[2]}]]
+set_property iostandard LVTTL [get_ports [list {slide[2]} {slide[1]} {slide[0]}]]
+set_property pulltype PULLUP [get_ports [list {slide[2]} {slide[1]} {slide[0]}]]
+startgroup
+set_property package_pin K17 [get_ports PB1]
+endgroup
+startgroup
+set_property package_pin D18 [get_ports PB2]
+endgroup
+startgroup
+set_property package_pin V4 [get_ports PB3]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports PB4]
+endgroup
+set_property is_loc_fixed false [get_ports [list  PB4]]
+set_property iostandard LVTTL [get_ports [list PB1]]
+set_property iostandard LVTTL [get_ports [list PB2]]
+set_property iostandard LVTTL [get_ports [list PB3]]
+set_property iostandard LVTTL [get_ports [list PB4]]
+set_property is_loc_fixed true [get_ports [list  PB4]]
+set_property pulltype PULLDOWN [get_ports [list PB1]]
+set_property pulltype PULLDOWN [get_ports [list PB2]]
+set_property pulltype PULLDOWN [get_ports [list PB3]]
+set_property pulltype PULLDOWN [get_ports [list PB4]]
+startgroup
+set_property package_pin C9 [get_ports clk]
+endgroup
+set_property is_loc_fixed false [get_ports [list  clk]]
+set_property is_loc_fixed true [get_ports [list  clk]]
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+set_property iostandard LVCMOS33 [get_ports [list lcd7]]
+set_property iostandard LVCMOS33 [get_ports [list lcd_e]]
+set_property iostandard LVCMOS33 [get_ports [list lcd_rs]]
+set_property package_pin "" [get_ports [list  lcd_rs]]
+startgroup
+set_property package_pin M18 [get_ports lcd_e]
+endgroup
+startgroup
+set_property package_pin L18 [get_ports lcd_rs]
+endgroup
+set_property is_loc_fixed false [get_ports [list  lcd_rs]]
+set_property drive 6 [get_ports [list lcd_rs]]
+set_property drive 4 [get_ports [list lcd_rs]]
+set_property drive 4 [get_ports [list lcd_e]]
+set_property package_pin "" [get_ports [list  lcd_rw]]
+set_property iostandard LVCMOS33 [get_ports [list lcd_rw]]
+startgroup
+set_property package_pin L17 [get_ports lcd_rw]
+endgroup
+set_property is_loc_fixed false [get_ports [list  lcd_rw]]
+set_property is_loc_fixed true [get_ports [list  lcd_rw]]
+set_property is_loc_fixed true [get_ports [list  lcd_rs]]
+startgroup
+set_property package_pin R15 [get_ports lcd4]
+endgroup
+set_property is_loc_fixed false [get_ports [list  lcd4]]
+set_property package_pin "" [get_ports [list  lcd5]]
+set_property is_loc_fixed true [get_ports [list  lcd4]]
+startgroup
+set_property package_pin R16 [get_ports lcd5]
+endgroup
+set_property is_loc_fixed false [get_ports [list  lcd5]]
+set_property is_loc_fixed true [get_ports [list  lcd5]]
+startgroup
+set_property package_pin P17 [get_ports lcd6]
+endgroup
+set_property is_loc_fixed false [get_ports [list  lcd6]]
+set_property is_loc_fixed true [get_ports [list  lcd6]]
+startgroup
+set_property package_pin M15 [get_ports lcd7]
+endgroup
+set_property is_loc_fixed false [get_ports [list  lcd7]]
+set_property is_loc_fixed true [get_ports [list  lcd7]]
+set_property iostandard LVCMOS33 [get_ports [list lcd4]]
+set_property iostandard LVCMOS33 [get_ports [list lcd5]]
+set_property iostandard LVCMOS33 [get_ports [list lcd6]]
+set_property drive 4 [get_ports [list lcd5]]
+set_property drive 4 [get_ports [list lcd6]]
+set_property drive 4 [get_ports [list lcd7]]
+set_property drive 4 [get_ports [list lcd_rw]]
+set_property drive 4 [get_ports [list lcd4]]
+save_constraints

@@ -1,0 +1,40 @@
+{%if request.user.designation == "Student" %}
+{% include "student_base.html" %}
+{% else %}
+{% include "staff_base.html" %}
+{% endif %}
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Map</title>
+    <style>
+        .back {
+            content: "";
+            background-image: url('/static/hall_map.jpg');
+            opacity: 1;
+            position: relative;
+            top: 15%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            background-repeat: no-repeat;
+            margin-right: 0%;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    {% comment %} <div class="back">
+        <img src="/static/hall_map.png">
+  </div> {% endcomment %}
+  <div class="main_div">
+    <img src="{%static 'hall_map'%}" style="width: 100%; height: 100%;">
+</div>
+
+</body>

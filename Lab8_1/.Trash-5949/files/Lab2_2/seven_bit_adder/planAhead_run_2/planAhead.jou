@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Jan 24 17:03:54 2024
+# Process ID: 177173
+# Log file: /users/btech/dakshkscse/Desktop/CS220Labs/Lab2_2/seven_bit_adder/planAhead_run_2/planAhead.log
+# Journal file: /users/btech/dakshkscse/Desktop/CS220Labs/Lab2_2/seven_bit_adder/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /users/btech/dakshkscse/Desktop/CS220Labs/Lab2_2/seven_bit_adder/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

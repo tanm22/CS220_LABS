@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Mar 13 14:25:24 2024
+# Process ID: 46628
+# Log file: /media/cse/2AA3-B3E2/Lab7/Lab7/Lab7_2/Smallest/planAhead_run_3/planAhead.log
+# Journal file: /media/cse/2AA3-B3E2/Lab7/Lab7/Lab7_2/Smallest/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /media/cse/2AA3-B3E2/Lab7/Lab7/Lab7_2/Smallest/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property pulltype PULLUP [get_ports [list {PB[3]} {PB[2]} {PB[1]} {PB[0]}]]
+save_constraints
+set_property pulltype PULLDOWN [get_ports [list {PB[3]}]]
+set_property pulltype PULLUP [get_ports [list {PB[3]}]]
+set_property pulltype PULLDOWN [get_ports [list {PB[3]} {PB[2]} {PB[1]} {PB[0]}]]
+save_constraints

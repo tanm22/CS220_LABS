@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/media/cse/2AA3-B3E2/Lab7/Lab7/Lab7_2/Smallestw/min_comparator.xst" -ofn "/media/cse/2AA3-B3E2/Lab7/Lab7/Lab7_2/Smallestw/min_comparator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 min_comparator.ngc min_comparator.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o min_comparator_map.ncd min_comparator.ngd min_comparator.pcf 
+par -w -intstyle ise -ol high -t 1 min_comparator_map.ncd min_comparator.ncd min_comparator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml min_comparator.twx min_comparator.ncd -o min_comparator.twr min_comparator.pcf 
+bitgen -intstyle ise -f min_comparator.ut min_comparator.ncd 

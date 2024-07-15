@@ -1,0 +1,38 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "sum[6]" LOC = E9;
+NET "sum[5]" LOC = D11;
+NET "sum[4]" LOC = C11;
+NET "sum[3]" LOC = F11;
+NET "sum[2]" LOC = E11;
+NET "sum[1]" LOC = E12;
+NET "sum[0]" LOC = F12;
+NET "Y[3]" LOC = N17;
+NET "Y[2]" LOC = H18;
+NET "Y[1]" LOC = L14;
+NET "Y[0]" LOC = L13;
+NET "cout" LOC = F9;
+NET "PB1" LOC = V4;
+NET "PB2" LOC = H13;
+NET "PB3" LOC = K17;
+NET "PB4" LOC = D18;
+
+# PlanAhead Generated IO constraints 
+
+NET "cout" DRIVE = 8;
+NET "sum[6]" DRIVE = 8;
+NET "sum[5]" DRIVE = 8;
+NET "sum[4]" DRIVE = 8;
+NET "sum[3]" DRIVE = 8;
+NET "sum[2]" DRIVE = 8;
+NET "sum[1]" DRIVE = 8;
+NET "sum[0]" DRIVE = 8;
+NET "Y[3]" PULLUP;
+NET "Y[2]" PULLUP;
+NET "Y[1]" PULLUP;
+NET "Y[0]" PULLUP;
+NET "PB1" PULLUP;
+NET "PB2" PULLUP;
+NET "PB3" PULLUP;
+NET "PB4" PULLUP;

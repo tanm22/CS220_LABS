@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /users/btech/dakshkscse/Desktop/CS220Labs/Lab1_1/full_adder/Desktop/CS220Labs/Lab1_1/full_adder/myxor.v -lang verilog -prj full_adder -o myxor.spl -module myxor -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e myxor.spl /users/btech/dakshkscse/Desktop/CS220Labs/Lab1_1/full_adder/Desktop/CS220Labs/Lab1_1/full_adder/myxor.sym 
